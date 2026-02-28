@@ -1,5 +1,7 @@
 streamlit
-tensorflow
+tensorflow==2.13.0
+keras==2.13.1
+h5py==3.9.0
 scikit-learn
 numpy
 pillow
