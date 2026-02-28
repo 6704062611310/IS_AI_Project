@@ -1,0 +1,8 @@
+Weapon Dataset Source:
+
+1. https://www.kaggle.com/datasets/jubaerad/weapons-in-images-segmented-videos
+2. https://www.kaggle.com/datasets/snehilsanyal/weapon-detection-test
+3. https://www.kaggle.com/datasets/simuletic/cctv-weapon-dataset
+
+Due to GitHub file size limitations, the full dataset is not uploaded.
+The model was trained locally using the datasets above.
