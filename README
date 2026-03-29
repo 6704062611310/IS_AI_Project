@@ -1,90 +1,78 @@
 # IS2568 Artificial Intelligence Project
 
 ## Project Title
-Artificial Intelligence Web Application for Prediction and Detection Tasks
+AI Prediction System: Football Match Prediction and Weapon Detection
 
-## Live Application
-🔗 https://isaiproject-idnqfgic6apptsazypebxhe.streamlit.app/
+## Project Overview
+This project was developed as part of the **IS2568 Artificial Intelligence** course.  
+The system demonstrates the application of both **Machine Learning** and **Deep Learning** through a web-based application built with **Streamlit**.
 
-## Source Code Repository
-🔗 https://github.com/6704062611310/IS_AI_Project
+The application contains two main AI modules:
 
----
-
-## 1. Introduction
-This project is developed as part of the **IS2568 Artificial Intelligence** course.  
-The objective of this project is to demonstrate the application of Artificial Intelligence techniques through a web-based system.
-
-The system integrates both:
-- Machine Learning (ML)
-- Deep Learning (DL)
-
-to solve real-world problems in prediction and image classification.
+1. **Football Match Prediction** using Ensemble Machine Learning
+2. **Weapon Detection** using Deep Learning with MobileNetV2
 
 ---
 
-## 2. Objectives
-- To design and develop an AI-based web application
-- To apply Machine Learning techniques for prediction tasks
-- To implement Deep Learning models for image classification
-- To provide a user-friendly interface using Streamlit
+## Live Demo
+Add your deployed Streamlit link here.
+
+Example:
+- https://your-project-name.streamlit.app/
 
 ---
 
-## 3. System Overview
-The application consists of two main modules:
+## GitHub Repository
+Add your GitHub repository link here.
 
-### 3.1 Football Match Prediction
-This module predicts the outcome of football matches using Ensemble Learning techniques.
-
-**Algorithms used:**
-- Random Forest
-- Gradient Boosting
-- Voting Classifier
-
-**Functionality:**
-- Input match-related data
-- Predict match outcome
-- Display prediction results to users
+Example:
+- https://github.com/your-username/IS_AI_Project
 
 ---
 
-### 3.2 Weapon Detection
-This module detects weapons from images using Deep Learning.
+## Features
 
-**Techniques used:**
-- MobileNetV2 (Pre-trained model)
-- Transfer Learning
-- Fine-tuning
+### 1. Machine Learning Module
+- Predict football match results
+- Uses team statistics such as rating, form, and average goals
+- Applies ensemble learning with multiple models
 
-**Functionality:**
-- Upload image
-- Analyze image content
-- Classify whether a weapon is present
+### 2. Neural Network Module
+- Detects whether an uploaded image contains a weapon
+- Uses MobileNetV2 with transfer learning
+- Provides confidence score for the prediction
 
----
-
-## 4. System Architecture
-The system is implemented as a web application using Streamlit and follows a simple architecture:
-
-- Frontend: Streamlit Interface
-- Backend: Python-based AI models
-- Model Layer: Machine Learning & Deep Learning models
+### 3. Explanation Pages
+- Explains dataset preparation
+- Describes model development process
+- Summarizes algorithms and evaluation metrics
+- Includes project references
 
 ---
 
-## 5. Tools and Technologies
+## Technologies Used
 - Python
 - Streamlit
 - Scikit-learn
 - TensorFlow / Keras
-- MobileNetV2
+- Joblib
+- Pillow
+- NumPy
 
 ---
 
-## 6. Installation and Usage
+## Project Structure
 
-### 6.1 Clone Repository
 ```bash
-git clone https://github.com/6704062611310/IS_AI_Project.git
-cd IS_AI_Project
+IS2568_FINAL/
+├── app.py
+├── models/
+│   ├── ensemble_model.pkl
+│   ├── scaler.pkl
+│   └── weapon_model.h5
+├── pages/
+│   ├── Machine_Learning_Explanation.py
+│   ├── Neural_Network_Explanation.py
+│   ├── Test_ML.py
+│   └── Test_NN.py
+└── README.md
