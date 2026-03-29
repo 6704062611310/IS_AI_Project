@@ -1,0 +1,90 @@
+# IS2568 Artificial Intelligence Project
+
+## Project Title
+Artificial Intelligence Web Application for Prediction and Detection Tasks
+
+## Live Application
+🔗 https://isaiproject-idnqfgic6apptsazypebxhe.streamlit.app/
+
+## Source Code Repository
+🔗 https://github.com/6704062611310/IS_AI_Project
+
+---
+
+## 1. Introduction
+This project is developed as part of the **IS2568 Artificial Intelligence** course.  
+The objective of this project is to demonstrate the application of Artificial Intelligence techniques through a web-based system.
+
+The system integrates both:
+- Machine Learning (ML)
+- Deep Learning (DL)
+
+to solve real-world problems in prediction and image classification.
+
+---
+
+## 2. Objectives
+- To design and develop an AI-based web application
+- To apply Machine Learning techniques for prediction tasks
+- To implement Deep Learning models for image classification
+- To provide a user-friendly interface using Streamlit
+
+---
+
+## 3. System Overview
+The application consists of two main modules:
+
+### 3.1 Football Match Prediction
+This module predicts the outcome of football matches using Ensemble Learning techniques.
+
+**Algorithms used:**
+- Random Forest
+- Gradient Boosting
+- Voting Classifier
+
+**Functionality:**
+- Input match-related data
+- Predict match outcome
+- Display prediction results to users
+
+---
+
+### 3.2 Weapon Detection
+This module detects weapons from images using Deep Learning.
+
+**Techniques used:**
+- MobileNetV2 (Pre-trained model)
+- Transfer Learning
+- Fine-tuning
+
+**Functionality:**
+- Upload image
+- Analyze image content
+- Classify whether a weapon is present
+
+---
+
+## 4. System Architecture
+The system is implemented as a web application using Streamlit and follows a simple architecture:
+
+- Frontend: Streamlit Interface
+- Backend: Python-based AI models
+- Model Layer: Machine Learning & Deep Learning models
+
+---
+
+## 5. Tools and Technologies
+- Python
+- Streamlit
+- Scikit-learn
+- TensorFlow / Keras
+- MobileNetV2
+
+---
+
+## 6. Installation and Usage
+
+### 6.1 Clone Repository
+```bash
+git clone https://github.com/6704062611310/IS_AI_Project.git
+cd IS_AI_Project
